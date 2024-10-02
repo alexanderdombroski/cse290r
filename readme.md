@@ -1,3 +1,3 @@
 # Git repo for git class
 
-I'm using SSH!
+I'm using SSH to sign!
