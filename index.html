@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="author" content="Alex Dombroski">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Dombroski</title>
@@ -8,116 +9,89 @@
 <body>
     <header>
         <nav>
-            
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
         </nav>
     </header>
     <main>
-        <h1>My Portfolio</h1>
-        <section>
+        <h1>Alex Dombroski</h1>
+        <img src="images/alex.png" alt="Alex Dombroski">
+        <section id="about">
             <h2>About</h2>
-
+            <p>I'm studing Computer Science at BYUI. I enjoy coding and problem solving. Before the major, I coded off and on since middle school.</p>
+            <p>I enjoy programming in several different languages, and have spent significant time coming up with projects that will push my learning and help concrete my knowlege</p>
+            <p>At college I've had the wonderful oppourtunity to help many students code and discuss good practices as I've worked at the Computing drop-in help lab. I feel it has helped me retain knowlege gained in my classes much longer and I gain a deeper understanding of the concepts learned.</p>
         </section>
-        <section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>GPA: 4.0</li>
+                <li>Completed all of the Computer Programming certificate courses</li>
+                <li>Working on completing functional programming and full-stack certificates, along with the CS degree</li>
+                <li>Member of the Computing Society and Web Developmnet Team</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="projects">
             <h2>Projects</h2>
             <h3>Completed</h3>
-            <ul>
-                <li>Blendz Smoothie E-Commerce Site</li>
-                <li>Pygame group project</li>
-                <li>Recipes Website</li>
-                <li>iOS weather app</li>
-                <li>C# VSCode snippets manager</li>
-                <li>Python csv to json converter</li>
-            </ul>
-            <h3>In Progress</h3>
+            <h4>Blendz Smoothie Ordering <a href="https://blendz.vercel.app/" target="_blank">Site</a></h4>
+            <p>Created a website with React, TypeScript, and Node.js. It pulls restraunt data and stores comments on a Firebase database.</p>
+
+            <h4>Pygame group project</h4>
+            <p>Learned to use Git effectivly and organzie a large project with a team of five members.</p>
+
+            <h4>iOS weather app</h4>
+            <p>Created an 5-day weather forecast iOS app that pulls weather data from Open Weather Map's API. It stores the user's location preferences locally using SwiftData. The graphics are designed using SwiftUI.</p>
+            
+            <h4>Recipes <a href="https://alexanderdombroski.github.io/recipes/">Website</a></h4>
+            <p>Created a website that interacts with a recipe API using TypeScript. It leverages the API's pagination to allow the user to navigate multiple pages of recipes results returned from their query and/or filters.</p>
+            
+            <h4>C# VSCode snippets manager</h4>
+            <p>Improved my effectiveness in codeing through snippets and a snippet manager. I can choose to write/edit my snippets right in VSCode. I created an automator app script so I can start this progam like any application. I can specify multiple snippet locations, allowing me to edit global snippets or local project snippets.</p>
+
+            <h4>Python CSV to JSON converter</h4>
+            <p>Created a customizeable CSV to JSON convertor using Python. It has a Tkinter gui that allows you to select files, see the expected output, and customize the conversion.</p>
+
+            <h3>Currently In Progress</h3>
             <ul>
                 <li>C++ text file compressor</li>
                 <li>Calendar Website</li>
-                <li>Erlang Chat App</li>
             </ul>
         </section>
-        <section>
-            <h2>Experience</h2>
-            <h3>Jobs</h3>
-            <ul>
-                <li>3 Semesters working in Computing Drop-in Lab</li>
-                <li>8 Months as Cook in fast food</li>
-                <li>3 Summers Farmwork</li>
-            </ul>
-        </section>
-        <section>
+        <hr>
+        <section id="skills">
             <h2>Skills</h2>
-            <h3>Languages and Notable Libraries & Frameworks & Tools</h3>
+            <h3>Languages</h3>
             <ul>
-                <li>
-                    Python
-                    <ul>
-                        <li>CSV</li>
-                        <li>JSON</li>
-                        <li>Response</li>
-                        <li>Selenium</li>
-                        <li>OS</li>
-                        <li>Tkinter</li>
-                        <li>Threading</li>
-                        <li>Multiprocessing</li>
-                        <li>Pygame</li>
-                        <li>Pandas</li>
-                        <li>Pytest</li>
-                    </ul>
-                </li>
-                <li>
-                    C#/.Net
-                    <ul>
-                        <li>System.Text.Json</li>
-                        <li>System.Linq</li>
-                    </ul>
-                </li>
-                <li>
-                    HTML/CSS
-                </li>
-                <li>
-                    JavaScript
-                    <ul>
-                        <li>React</li>
-                        <li>Vite</li>
-                        <li>Node.js</li>
-                        <li>Next.js</li>
-                        <li>Typescript</li>
-                    </ul>
-                </li>
-                <li>
-                    Swift
-                    <ul>
-                        <li>SwiftUI</li>
-                        <li>SwiftData</li>
-                    </ul>
-                </li>
-                <li>
-                    Erlang
-                    <ul>
-                        <li>rebar3</li>
-                    </ul>
-                </li>
-                <li>
-                    C
-                </li>
-                <li>
-                    C++
-                </li>
-                <li>
-                    MySQL
-                </li>
+                <li>Python</li>
+                <li>C#/.Net</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Swift</li>
+                <li>Erlang</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>MySQL</li>
             </ul>
-
             <h3>Development Tools</h3>
             <ul>
-                <li>Linux Commands</li>
                 <li>Git/GitHub</li>
+                <li>Linux Commands</li>
+                <li>Node.js</li>
                 <li>Firebase Firestore</li>
             </ul>
         </section>
     </main>
     <footer>
-        <a href="https://github.com/alexanderdombroski">GitHub</a>
+        <a href="https://www.linkedin.com/in/alexander-dombroski" target="_blank">
+            <img src="images/linkedin-96.svg" alt="linkedin logo">
+        </a>
+        <a href="https://github.com/alexanderdombroski" target="_blank">
+            <img src="images/github-96.svg" alt="github logo">
+        </a>
     </footer>
 </body>
 </html>
