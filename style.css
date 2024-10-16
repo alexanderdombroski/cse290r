@@ -1,0 +1,110 @@
+/* Add this inside your <head> tag in the HTML, or in a separate CSS file linked to your HTML */
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Add whitespace around edges and between sections */
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Right align the image to the right of the about section */
+#about img {
+    float: right;
+    margin-left: 20px;
+    width: 150px; /* adjust size if necessary */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style footer and nav */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer div:first-child {
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+footer div:last-child {
+    justify-content: flex-end;
+}
+
+/* Make languages and development tools lists appear side by side */
+#skills ul {
+    list-style: none;
+}
+
+#skills ul {
+    column-count: 2; /* This will display the two lists side by side */
+    column-gap: 40px;
+}
+
+/* Add more padding around sections */
+section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
