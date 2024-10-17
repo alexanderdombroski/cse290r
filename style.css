@@ -65,6 +65,7 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+    text-align: end;
 }
 
 footer a:hover {
@@ -87,8 +88,13 @@ footer div:first-child {
     justify-content: flex-start;
 }
 
+footer a:nth-child(2) {
+    margin-left: auto;
+}
+
 footer div:last-child {
     justify-content: flex-end;
+
 }
 
 /* Make languages and development tools lists appear side by side */
