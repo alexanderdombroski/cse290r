@@ -7,3 +7,5 @@ This is another commit
 Changed the remote to communicate via SSH instead of HTTPS
 
 Second test of push using the terminal only
+
+and I'm stinky hehehe
